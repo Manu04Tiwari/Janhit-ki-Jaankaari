@@ -7,7 +7,7 @@ News-bot is a telegram bot which will show you news from any country, in any lan
 * It is equipped for small talk.
 * It is also equipped with a custom keyboard which will show you all the available topics.
 * Also, the bot is trained for fuzzy matching i.e. it can identify the topics even if you mispell them. 
-  - E.g.  If you mispell "sports" as "sprts","spots" etc, the bot can understand that you meant "sports".
+  - E.g.  If you mis-spell "sports" as "sprts","spots" etc, the bot can understand that you meant "sports".
 ## News-Topics 📕
 * Top Stories
 * World
