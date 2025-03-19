@@ -25,10 +25,7 @@ Shortest way to explain my code:
 * Connected a service account from Google Cloud to the code.
 * Added **gnewsclient** which helps the bot fetch news.
 * Set up the webhook with Heroku.
-# Demo 🎥
-Click on the picture to watch the demo:
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/tq9lXJCJki0/0.jpg)](https://www.youtube.com/watch?v=tq9lXJCJki0)
 # Try it yourself 🏃🏾‍♀️
 Search for **user_456bot** on telegram, hopefully it will work. 
 PS: There might be a few seconds lag after your first command as the server shuts down when its not in use.
