@@ -1,6 +1,5 @@
 # 1. Enable Logging
-# we want to know about the activities(warning,errors) in a systematic manner
-# thats why we need logging
+
 import logging
 from flask import Flask, request
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Dispatcher
@@ -32,12 +31,6 @@ def webhook():
 
 
 # CommandHandlers
-# def start(bot, update):
-#     print(update)
-#     author=update.message.from_user.first_name
-#     # msg=update.message.text
-#     reply="Hi! {}",format(author)
-#     bot.send_message(chat_id=update.message.chat_id, text=reply)
 def start(update, context):
 print(update)
 author=update.message.from_user.first_name
