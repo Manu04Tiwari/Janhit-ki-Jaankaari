@@ -61,10 +61,6 @@ def echo_sticker(update, context):
 def error(bot,update):
     logger.error("Update '%s' caused error '%s'",update, update.error)
 
-    # this will try to recieve updates for the bot
-
-# this will keep on handling the updates
-
 # def main():
 
 bot = Bot(TOKEN)
