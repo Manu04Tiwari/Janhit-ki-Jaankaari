@@ -39,10 +39,10 @@ def webhook():
 #     reply="Hi! {}",format(author)
 #     bot.send_message(chat_id=update.message.chat_id, text=reply)
 def start(update, context):
-   print(update)
-   author=update.message.from_user.first_name
-   reply="Hi! {}".format(author)
-   context.bot.sendMessage(chat_id=update.message.chat_id, text=reply)
+print(update)
+author=update.message.from_user.first_name
+reply="Hi! {}".format(author)
+context.bot.sendMessage(chat_id=update.message.chat_id, text=reply)
 
 def _help(update, context):
     help_text="Hey! This is a help text."
